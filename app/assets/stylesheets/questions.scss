@@ -1,0 +1,40 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
+
+body {
+  font-family: sans-serif;
+  color: #696969;
+  margin: 20px;
+  font-size: 16px;
+}
+
+.ask-container {
+  margin: 25px;
+  text-align: center;
+}
+
+.question {
+  padding: 25px;
+  margin: 25px;
+  width: 500px;
+  border-left: 5px solid #DCDCDC;
+}
+
+.coach {background-color: #FEFEE3;}
+
+.text-input {
+  width: 250px;
+  height: 20px;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.submit-button {
+  background-color: #4678B2;
+  border-radius: 0px 5px 5px 0px;
+  height: 26px;
+  margin-left: 0;
+}
